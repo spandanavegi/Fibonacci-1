@@ -1,0 +1,18 @@
+nterms =int(input("enter the no.of terms"))
+n1 = 0
+n2 = 1
+count=0
+if nterms <=0:
+    print("enter the positive numbers")
+elif nterms==1:
+    print("fabonacci series of n is : n1")
+else:
+    print("the fabnocci series is given as")
+    while(count<=nterms):
+        print(n1)
+        n = n1+n2
+        n1 = n2
+        n2 = n
+        count = count+1
+    
+     
